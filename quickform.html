@@ -1,0 +1,152 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>content and appearance</title>
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .hr {
+      border-bottom: 2px solid lightblue;
+      margin: 20px 0;
+    }
+
+    .wrapper {
+      padding: 20px;
+      border: 2px solid lightblue;
+    }
+
+    .blur {
+      filter: blur(5px);
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    button {
+      color: white;
+      background-color: black;
+      border: 0;
+    }
+
+    input,
+    button {
+      border-radius: 4px;
+      border-color: black;
+    }
+
+    .box {
+      padding: 20px;
+      border-radius: 8px;
+      border: 2px solid lightblue;
+      margin: 10px;
+    }
+
+    h3 {
+      padding-bottom: 5px;
+      border-bottom: 1px solid black;
+    }
+
+    .line-through {
+      text-decoration: line-through;
+    }
+
+    .quickform label {
+      display: block;
+      margin-bottom: 4px;
+      font-weight: bold;
+    }
+
+    .quickform__body {
+      display: flex;
+    }
+
+    .quickform input,
+    .quickform button {
+      min-height: 35px;
+      padding: 5px 10px;
+    }
+
+    .quickform input {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    .quickform button {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="flex">
+      <div class="box">
+        <h3 class="line-through">voucher-component</h3>
+        <div class="quickform">
+          <label for="">Voucher</label>
+          <div class="quickform__body">
+            <input type="text" value="VOUCHER100">
+            <button>enviar</button>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <h3 class="line-through">delivery-component</h3>
+        <div class="quickform">
+          <label for="">Frete</label>
+          <div class="quickform__body">
+            <input type="text" value="93800-033">
+            <button>consultar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hr"></div>
+
+    <div class="flex">
+      <div class="box">
+        <h3>quickform</h3>
+        <div class="quickform">
+          <label for="">
+            <div class="blur">Voucher</div>
+          </label>
+          <div class="quickform__body">
+            <input type="text" value="**********">
+            <button>
+              <div class="blur">enviar</div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <h3>quickform</h3>
+        <div class="quickform">
+          <label for="">
+            <div class="blur">Frete</div>
+          </label>
+          <div class="quickform__body">
+            <input type="text" value="**********">
+            <button>
+              <div class="blur">consultar</div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
