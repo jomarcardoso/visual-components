@@ -12,6 +12,8 @@ Muito da falta de reaproveitamento vem quando não conseguimos ver um padrão vi
 
 Se o conteúdo não importa, o nome do componente não deve ser baseado nele.
 
+![image](https://user-images.githubusercontent.com/27368585/124010890-ce658600-d9b5-11eb-9bf3-1ba7dc7495ae.png)
+
 ## Variante
 
 Um bom exercício é tentar imaginar um elemento visual ao lado de outro e comparar eles.
