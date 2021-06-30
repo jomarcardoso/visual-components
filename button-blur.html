@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample - imagine blur</title>
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hr {
+      border-bottom: 2px solid lightblue;
+      margin: 20px 0;
+    }
+
+    .wrapper {
+      max-width: 400px;
+      padding: 20px;
+      border: 2px solid lightblue;
+      font-size: 0;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .blur {
+      filter: blur(5px);
+    }
+
+    button {
+      min-height: 50px;
+      min-width: 120px;
+      font-size: 20px;
+      margin: 0 10px;
+      box-sizing: border-boxs;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="flex">
+      <button>
+        <span class="">
+          🤍
+        </span>
+      </button>
+      <button>
+        <span class="">
+          ir
+        </span>
+      </button>
+    </div>
+
+    <div class="hr"></div>
+
+    <div class="flex">
+      <button>
+        <span class="blur">
+          🤍
+        </span>
+      </button>
+      <button>
+        <span class="blur">
+          ir
+        </span>
+      </button>
+    </div>
+  </div>
+</body>
+
+</html>
