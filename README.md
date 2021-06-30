@@ -16,8 +16,14 @@ Se o conteúdo não importa, o nome do componente não deve ser baseado nele.
 
 Um bom exercício é tentar imaginar um elemento visual ao lado de outro e comparar eles.
 
-## Comportamento ⚔ Visual
+## Lógica ⚔ Visual
 
-Não confunda eles, um botão que abre uma modal, visualmente não é um "botão de modal". Sempre perceba os padrões visuais, ignore o comportamento e sua lógica. 
+Não confunda eles, um botão que abre uma modal, visualmente não é um "botão de modal". Sempre perceba os padrões visuais, ignore sua lógica ou qualquer comportamento que não esteja atrelado ao componentes.
+
+## Comportamento 💙 Visual
+
+Diferente dos itens acima, o comportamento importa para a definição do componente. Um ícone que se comporta como botão não pode ser apenas um ícone. Quando o componente tem uma aparência e se comporta como outro componente o comum é fazer o componente baseado no comportamento e utilizar o componente que da a aparência para compor ele.
+
+
 
 
