@@ -8,6 +8,8 @@ O padrão visual é algo que muitas vezes não visto por quem está criando o co
 
 Muito da falta de reaproveitamento vem quando não conseguimos ver um padrão visual, pois há uma diferença em seu conteúdo. Um bom exercício é imaginar aquele padrão visual borrado.
 
+![image](https://user-images.githubusercontent.com/27368585/124002320-f7811900-d9ab-11eb-9f2e-162c87b93209.png)
+
 Se o conteúdo não importa, o nome do componente não deve ser baseado nele.
 
 ## Variante
